@@ -14,7 +14,7 @@ import re
 import xml.etree.ElementTree as ET
 from xml.dom import minidom
 
-from entry import *
+from .entry import *
 
 def parse(in_file):
     tree = ET.parse(in_file)
